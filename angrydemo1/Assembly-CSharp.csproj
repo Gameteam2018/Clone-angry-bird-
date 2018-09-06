@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\level1.cs" />
      <Compile Include="Assets\level2.cs" />
+     <Compile Include="Assets\level3.cs" />
      <Compile Include="Assets\main.cs" />
      <Compile Include="Assets\Script\birdcontroller.cs" />
      <Compile Include="Assets\Script\Enemy2.cs" />

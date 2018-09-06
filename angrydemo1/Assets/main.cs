@@ -10,4 +10,8 @@ public class main : MonoBehaviour
     {
         Application.LoadLevel("choose_level");
     }
+    public void backmenu()
+    {
+        Application.LoadLevel("main");
+    }
 }
