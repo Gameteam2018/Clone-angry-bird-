@@ -1481,7 +1481,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1297397604}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 397a4e1d4ac15924e93d0384f3221afa, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1540,7 +1540,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1297397604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.06, y: -0.65, z: 0}
+  m_LocalPosition: {x: -6.03, y: -0.71, z: 0}
   m_LocalScale: {x: 0.07118859, y: 0.06595478, z: 0.07427038}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1562,7 +1562,7 @@ SpringJoint2D:
   m_Anchor: {x: -0.0000015958717, y: 0.0000000049046776}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.13453615
+  m_Distance: 0.1655295
   m_DampingRatio: 0
   m_Frequency: 2
 --- !u!114 &1297397610
@@ -1577,7 +1577,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1297397605}
+  Hook: {fileID: 1933094509}
   releaseTime: 0.15
+  max_distance: 2
 --- !u!1 &1303865845
 GameObject:
   m_ObjectHideFlags: 0

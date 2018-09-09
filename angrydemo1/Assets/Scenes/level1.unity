@@ -1291,7 +1291,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1297397605}
+  Hook: {fileID: 1933094509}
   releaseTime: 0.15
+  max_distance: 2
 --- !u!1 &1303865845
 GameObject:
   m_ObjectHideFlags: 0
